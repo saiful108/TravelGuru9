@@ -8,11 +8,13 @@ body {
   justify-content: center;
   background: #fff;
 }
+/* use all mini text class */
 .tour_headline {
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
 }
+/* use all mini text class */
 .tour_mini_text {
   color: rgba(19, 19, 24, 0.7);
   font-family: Mulish;
@@ -46,3 +48,62 @@ body {
   font-weight: 800;
   line-height: normal;
 }
+
+/* place */
+.place_image {
+  border-radius: 16px;
+  width: 100%;
+  height: 50vh;
+
+}
+.place_text{
+ 
+  margin-top: -160px;
+}
+.place_text_center{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.place1 {
+  grid-area: maldives;
+  
+}
+.place2 {
+  grid-area: indonesia;
+}
+.place3 {
+  grid-area: srilanka;
+}
+.place4 {
+  grid-area: america;
+}
+.place5 {
+  grid-area: kashmir;
+}
+.place6 {
+  grid-area: bangladesh;
+}
+.place7 {
+  grid-area: banderban;
+}
+
+.place_container {
+  display: grid;
+  gap: 10px;
+  /* padding: 10px; */
+  grid-template-areas:
+    "maldives maldives indonesia indonesia"
+    "srilanka america america kashmir"
+    "bangladesh banderban banderban banderban";
+}
+.place_container > div {
+   /* padding: 10px 0; */
+  
+}
+/* place */
