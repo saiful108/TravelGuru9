@@ -55,5 +55,72 @@ flex-shrink: 0;
         line-height: normal;
       }
       
+   /* choose your destination */
+   .place_image {
+    border-radius: 16px;
+    width: 100%;
+    height: 50vh;
+  
+  }
+  .place_text{
    
+    margin-top: -160px;
+  }
+  .place_text_center{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .place1 {
+    grid-area: maldives;
+    margin-bottom: 100px;
+  }
+  .place2 {
+    grid-area: indonesia;
+  }
+  .place3 {
+    grid-area: srilanka;
+  }
+  .place4 {
+    grid-area: america;
+    margin-bottom: 100px;
+  }
+  .place5 {
+    grid-area: kashmir;
+    margin-bottom: 100px;
+  }
+  .place6 {
+    grid-area: bangladesh;
+    margin-bottom: 100px;
+  }
+  .place7 {
+    grid-area: banderban;
+  }
+  
+  .place_container {
+    display: grid;
+    gap: 10px;
+    /* padding: 10px; */
+    grid-template-areas:
+      "maldives "
+      'indonesia'
+      "srilanka "
+      'america '
+      'kashmir'
+      "bangladesh"
+      'banderban';
+      
+  }
+  .place_container > div {
+     /* padding: 10px 0; */
+    
+  }
+  
+
+   /* choose your destination */
   }
