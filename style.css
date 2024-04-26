@@ -207,16 +207,18 @@ border: none;
 /* news_letter */
 /* footer */
 .foter{
-  width: 100;
+  
   margin-top: 50px;
   background: rgba(19, 19, 24, 0.05);
   text-align: center;
-  padding: 100px 40px;
+  padding: 32px 44px;
 }
 
 .foter_hr{
   text-align: center;
-  width: 872px; 
+ 
+  height: 1px;
+ 
   
 }
 .foter_head{
@@ -243,7 +245,7 @@ height: 46.673px;
 }
 .foter_icon{
  margin-top: 16px;
- margin-bottom: 30px;
+ margin-bottom: 10px;
 }
 
 /* footer */
