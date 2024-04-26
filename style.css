@@ -105,6 +105,9 @@ body {
 /* place */
 
 /* why choose us */
+.text_divs{
+  margin-top:140px;
+}
 .choose_us {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
