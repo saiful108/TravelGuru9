@@ -139,9 +139,8 @@
     width: 48px;
   }
   /* why choose us */
-}
 
-/* news_letter */
+  /* news_letter */
 .news_letter {
   margin-top: 52px;
   display: flex;
@@ -197,3 +196,7 @@ height: 300px;
   border-radius: 16px;
 }
 /* news_letter */
+
+
+}
+
