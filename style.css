@@ -2,6 +2,34 @@ body {
   margin: 0 30px;
   padding: 0;
 }
+/* nav */
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link_text{
+
+text-align: center;
+text-decoration: none;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+margin-right: 40px;
+
+}
+.link{
+  display: inline-flex;
+  align-items: center;
+}
+.nav_head {
+  display: flex;
+    align-items: center;
+  gap: 16px;
+}
+/* nav */
 .baner_container {
   position: relative;
   margin-top: 15px;
